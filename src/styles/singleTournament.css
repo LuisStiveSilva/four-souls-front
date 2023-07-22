@@ -1,0 +1,98 @@
+.table {
+  border-collapse: collapse;
+  width: 500px;
+  margin: 30px auto;
+}
+
+.table-head {
+  background-color: #a2d2ff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.table-cell {
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+
+.create-game {
+  background-color: green;
+  display: block;
+  margin: auto;
+  width: 150px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.disable {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.game {
+  background-color: #a2d2ff;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin: 20px auto;
+  border: 5px solid #ff6392;
+}
+
+.game-card,
+.card-winner,
+.card-loser {
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  min-width: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.game-card {
+  background-color: black;
+}
+
+.card-winner {
+  background-color: green;
+}
+
+.card-loser {
+  background-color: red;
+}
+
+.card-img {
+  width: 150px;
+  margin: 15px auto;
+
+}
+
+.finish-button,
+.finish-disable {
+  margin: 30px auto;
+  color: white;
+  padding: 15px;
+  display: block;
+  font-size: 1.2rem;
+  border-radius: 20px;
+}
+
+.finish-button {
+  cursor: pointer;
+  background: blue;
+}
+
+.finish-disable {
+  background-color: grey;
+  cursor: not-allowed;
+}

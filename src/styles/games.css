@@ -1,0 +1,52 @@
+.game-completed,
+.game-progress,
+.empty-game {
+  width: 220px;
+  min-height: 150px;
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-completed {
+  position: relative;
+  background-color: #3B3B3B;
+  color: #FFB606;
+  border: 3px solid #FFB606;
+}
+
+.game-progress {
+  background-color: #599717;
+  color: white;
+  border: 3px solid black;
+}
+
+.empty-game {
+  border: 3px dashed grey;
+}
+
+.add-icon {
+  font-size: 40px;
+}
+
+.medal-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 50px;
+}
+
+.game-container {
+  box-sizing: border-box;
+  margin: 30px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+}
