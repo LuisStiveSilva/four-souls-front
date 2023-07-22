@@ -15,27 +15,27 @@ import CreateTournament from './views/CreateTournament';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/four-souls-front",
     element: <Home />,
   },
   {
-    path: "/admin",
+    path: "/four-souls-front/admin",
     element: <Admin />,
   },
   {
-    path: "/admin/card/:id",
+    path: "/four-souls-front/admin/card/:id",
     element: <CreateCard />,
   },
   {
-    path: "/tournaments",
+    path: "/four-souls-front/tournaments",
     element: <Tournaments />,
   },
   {
-    path: "/tournaments/:id",
+    path: "/four-souls-front/tournaments/:id",
     element: <SingleTournament />,
   },
   {
-    path: "/tournaments/create",
+    path: "/four-souls-front/tournaments/create",
     element: <CreateTournament />,
   }
 ]);
