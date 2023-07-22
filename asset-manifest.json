@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/four-souls-front/static/css/main.cca37b18.css",
-    "main.js": "/four-souls-front/static/js/main.dc99ac06.js",
+    "main.js": "/four-souls-front/static/js/main.d972f181.js",
     "index.html": "/four-souls-front/index.html",
     "main.cca37b18.css.map": "/four-souls-front/static/css/main.cca37b18.css.map",
-    "main.dc99ac06.js.map": "/four-souls-front/static/js/main.dc99ac06.js.map"
+    "main.d972f181.js.map": "/four-souls-front/static/js/main.d972f181.js.map"
   },
   "entrypoints": [
     "static/css/main.cca37b18.css",
-    "static/js/main.dc99ac06.js"
+    "static/js/main.d972f181.js"
   ]
 }
