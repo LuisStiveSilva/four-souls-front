@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/four-souls-front/static/css/main.cca37b18.css",
+    "main.js": "/four-souls-front/static/js/main.c45ee6a1.js",
+    "index.html": "/four-souls-front/index.html",
+    "main.cca37b18.css.map": "/four-souls-front/static/css/main.cca37b18.css.map",
+    "main.c45ee6a1.js.map": "/four-souls-front/static/js/main.c45ee6a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cca37b18.css",
+    "static/js/main.c45ee6a1.js"
+  ]
+}
