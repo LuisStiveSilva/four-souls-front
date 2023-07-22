@@ -36,7 +36,7 @@ function Admin() {
       <h1 className='text-center'>Admin</h1>
 
       <div className='center-div'>
-        <Link className='link' to="/admin/card/create">
+        <Link className='link' to="/four-souls-front/admin/card/create">
           <button className='add-button'>AGREGAR CARTA</button>
         </Link>
       </div>
@@ -47,7 +47,7 @@ function Admin() {
             <h3 className='text-center'>{card.name}</h3>
             <img src={card.image} alt="" />
             <div className='button-group'>
-              <Link className='link' to={`/admin/card/${card._id}`}>
+              <Link className='link' to={`/four-souls-front/admin/card/${card._id}`}>
                 <button className='update-button'>
                   Editar
                 </button>

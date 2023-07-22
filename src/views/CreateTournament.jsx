@@ -45,7 +45,7 @@ function CreateGame() {
             participants
           }
         })
-        navigate(`/tournaments`)
+        navigate(`/four-souls-front/tournaments`)
       }
     } catch (error) {
       console.error(error);

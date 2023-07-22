@@ -30,7 +30,7 @@ function Tournaments() {
         : <Fragment>
           <div className='game-container'>
             {games.map((e, index) =>
-              <Link className='link' to={`/tournaments/${e._id}`} key={index}>
+              <Link className='link' to={`/four-souls-front/tournaments/${e._id}`} key={index}>
                 <div key={e._id} className={e.winner ? 'game-completed' : 'game-progress'} >
                   <p>
                     PARTIDAS: {e.games.length}
@@ -44,7 +44,7 @@ function Tournaments() {
                 </div>
               </Link>
             )}
-            <Link className='link' to={`/tournaments/create`}>
+            <Link className='link' to={`/four-souls-front/tournaments/create`}>
               <div className='empty-game'>
                 <p className='text-center'>Crear campeonato</p>
                 <span className="material-symbols-outlined add-icon">
