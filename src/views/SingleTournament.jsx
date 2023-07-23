@@ -38,7 +38,7 @@ function SingleTournament() {
         }
       }
       data.data.participants.forEach(e => {
-        tmpArr.push({ player: e.name, wins: counter[e._id], id: e._id })
+        tmpArr.push({ player: e.name, wins: counter[e._id] || 0, id: e._id })
       })
       tmpArr.sort((a, b) => b.wins - a.wins)
       await getGamesByIds(gameIds)

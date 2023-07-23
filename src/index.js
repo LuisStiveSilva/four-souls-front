@@ -2,7 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
   createBrowserRouter,
+  HashRouter,
+  Route,
   RouterProvider,
+  Routes,
 } from "react-router-dom";
 import './index.css';
 import Home from './views/Home';
@@ -44,7 +47,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Container>
-      <RouterProvider router={router} />
+      {/* <RouterProvider router={router} /> */}
+      <HashRouter>
+        <Routes>
+          <Route path="/four-souls-front/" element={<Home />} />
+          <Route path="/four-souls-front/admin" element={<Admin />} />
+          <Route path="/four-souls-front/admin/card/:id" element={<CreateCard />} />
+          <Route path="/four-souls-front/tournaments" element={<Tournaments />} />
+          <Route path="/four-souls-front/tournaments/:id" element={<SingleTournament />} />
+          <Route path="/four-souls-front/tournaments/create" element={<CreateTournament />} />
+        </Routes>
+      </HashRouter>
     </Container>
   </React.StrictMode>
 );
