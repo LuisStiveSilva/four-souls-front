@@ -50,12 +50,12 @@ root.render(
       {/* <RouterProvider router={router} /> */}
       <HashRouter>
         <Routes>
-          <Route path="/four-souls-front/" element={<Home />} />
-          <Route path="/four-souls-front/admin" element={<Admin />} />
-          <Route path="/four-souls-front/admin/card/:id" element={<CreateCard />} />
-          <Route path="/four-souls-front/tournaments" element={<Tournaments />} />
-          <Route path="/four-souls-front/tournaments/:id" element={<SingleTournament />} />
-          <Route path="/four-souls-front/tournaments/create" element={<CreateTournament />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/admin/card/:id" element={<CreateCard />} />
+          <Route path="/tournaments" element={<Tournaments />} />
+          <Route path="/tournaments/:id" element={<SingleTournament />} />
+          <Route path="/tournaments/create" element={<CreateTournament />} />
         </Routes>
       </HashRouter>
     </Container>
