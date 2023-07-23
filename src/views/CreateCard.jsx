@@ -44,7 +44,7 @@ function CreateCard() {
             "type": card.type
           }
         })
-      navigate('/four-souls-front/admin')
+      navigate('/admin')
     } catch (error) {
       console.error(error);
     }

@@ -6,10 +6,10 @@ function Topbar() {
   return (
     <div className='topbar'>
       <p>
-        <Link className='link' to={`/four-souls-front`}>Inicio</Link>
+        <Link className='link' to={`/`}>Inicio</Link>
       </p>
       <p>
-        <Link className='link' to={`/four-souls-front/tournaments`}>Resultados</Link>
+        <Link className='link' to={`/tournaments`}>Resultados</Link>
       </p>
     </div>
   )
