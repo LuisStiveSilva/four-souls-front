@@ -27,6 +27,19 @@ code {
   margin: 30px;
   padding-bottom: 10px;
   padding-top: 15px;
+  width: 15%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1040px) {
+  .card {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
 }
 
 .button-group {

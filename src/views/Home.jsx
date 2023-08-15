@@ -116,21 +116,7 @@ function Home() {
               >
                 <div
                   onClick={() => deleteCardCounter(card)}
-                  style={{
-                    position: 'absolute',
-                    background: "red",
-                    width: '20px',
-                    height: '20px',
-                    color: "white",
-                    display: 'flex',
-                    justifyContent: "center",
-                    alignItems: "center",
-                    borderRadius: '50%',
-                    cursor: 'pointer',
-                    padding: "5px",
-                    top: 0,
-                    right: 0,
-                  }}
+                  className='delete-counter'
                 >
                   X
                 </div>

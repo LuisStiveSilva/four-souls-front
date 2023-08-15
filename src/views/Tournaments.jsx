@@ -5,6 +5,7 @@ import URL_BASE from '../config'
 import Loading from '../components/Loading'
 import "../styles/games.css"
 import { Link } from 'react-router-dom'
+import isaacWin from "../images/isaac-win.png"
 
 function Tournaments() {
   const [games, setGames] = useState([])
@@ -12,7 +13,7 @@ function Tournaments() {
 
   const getGames = async () => {
     setLoading(true)
-    const data = await axios.get(`${URL_BASE}/api/tournament`)    
+    const data = await axios.get(`${URL_BASE}/api/tournament`)
     console.log(data.data);
     setGames(data.data)
     setLoading(false)
@@ -37,9 +38,10 @@ function Tournaments() {
                   </p>
                   <p>{e.winner ? `Ganador: ${e.winner.name}` : "En proceso"}</p>
                   {e.winner &&
-                    <span className="material-symbols-outlined medal-icon">
-                      workspace_premium
-                    </span>
+                    <img src={isaacWin} className='issac-win'/>
+                    // <span className="material-symbols-outlined medal-icon">
+                    //   workspace_premium
+                    // </span>
                   }
                 </div>
               </Link>

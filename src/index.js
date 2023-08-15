@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  createBrowserRouter,
   HashRouter,
   Route,
-  RouterProvider,
   Routes,
 } from "react-router-dom";
 import './index.css';
@@ -16,32 +14,32 @@ import Tournaments from './views/Tournaments';
 import SingleTournament from './views/SingleTournament';
 import CreateTournament from './views/CreateTournament';
 
-const router = createBrowserRouter([
-  {
-    path: "/four-souls-front",
-    element: <Home />,
-  },
-  {
-    path: "/four-souls-front/admin",
-    element: <Admin />,
-  },
-  {
-    path: "/four-souls-front/admin/card/:id",
-    element: <CreateCard />,
-  },
-  {
-    path: "/four-souls-front/tournaments",
-    element: <Tournaments />,
-  },
-  {
-    path: "/four-souls-front/tournaments/:id",
-    element: <SingleTournament />,
-  },
-  {
-    path: "/four-souls-front/tournaments/create",
-    element: <CreateTournament />,
-  }
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/four-souls-front",
+//     element: <Home />,
+//   },
+//   {
+//     path: "/four-souls-front/admin",
+//     element: <Admin />,
+//   },
+//   {
+//     path: "/four-souls-front/admin/card/:id",
+//     element: <CreateCard />,
+//   },
+//   {
+//     path: "/four-souls-front/tournaments",
+//     element: <Tournaments />,
+//   },
+//   {
+//     path: "/four-souls-front/tournaments/:id",
+//     element: <SingleTournament />,
+//   },
+//   {
+//     path: "/four-souls-front/tournaments/create",
+//     element: <CreateTournament />,
+//   }
+// ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
